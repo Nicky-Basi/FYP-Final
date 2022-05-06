@@ -1,0 +1,16 @@
+<div class="container">
+    <h1>Pending Transactions</h1>
+    <p>Any pending transactions will be displayed below.</p>
+
+    <app-transactions-table
+    [transactions]="pendingTransactions"
+    ></app-transactions-table>
+
+    <button class="btn btn-primary" (click)="minePendingTransactions()">
+        Start mining the block
+    </button>
+
+    <div>
+        
+    </div>
+</div>
