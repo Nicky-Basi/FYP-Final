@@ -1,0 +1,14 @@
+<nav class="navbar narvbar bg-light">  <!-- creating a navbar with a light background-->
+  <a class="navbar-brand" routerLink="/"> <!-- creating a link so you can click title to return to home page-->
+    NickyCoin Blockchain Demo
+  </a>
+  
+  <div>
+    <button class="btn btn-outline-dark" routerLink="/settings">Settings</button> <!--creating a 'settings' button with a link to the settings page-->
+    &nbsp;
+    <button class="btn btn-outline-dark" routerLink="/new/transaction">Create Transaction</button> <!--creating a 'create transaction' button with a link to the create transaction page-->
+    &nbsp;
+    <button class="btn btn-outline-dark" routerLink="/new/transaction/pending">Pending Transactions</button> <!--creating a 'pending transactions' button with a link to the pending transactions page-->
+  </div>
+</nav>
+<router-outlet></router-outlet>
