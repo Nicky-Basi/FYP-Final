@@ -1,0 +1,18 @@
+<div class="container">
+    <h1>Settings</h1>
+    <p>This page is used for configuring the difficulty level of the Proof-of-Work algorithm and setting your desired value for the Mining Reward</p>
+    <br>
+
+    <div class="form-group">
+        <label>Difficulty</label>
+        <input type="number" class="form-control" [(ngModel)]="blockchain.difficulty">
+    </div>
+
+    <br>
+
+    <div class="form-group">
+        <label>Mining Reward</label>
+        <input type="number" class="form-control" [(ngModel)]="blockchain.miningReward">
+    </div>
+</div>
+
